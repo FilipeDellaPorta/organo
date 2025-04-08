@@ -7,7 +7,7 @@ export const CampoTexto = (props) => {
   return (
     <div className='campo-texto'>
       <label>{props.label}</label>
-      <input placeholder={placeholderModificadora} />
+      <input required={props.obrigatorio} placeholder={placeholderModificadora} />
     </div>
   );
 };
